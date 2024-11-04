@@ -1,9 +1,6 @@
 ---
-title-prefix: AJ's Blog
-title: Hello World
-subtitle: A minimalist design exploration
+title: Akash Jain
 author: Akash Jain
-author-url: "https://wickstrom.tech"
 date: 2024-08-26
 lang: en
 toc-title: Contents
