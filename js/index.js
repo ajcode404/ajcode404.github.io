@@ -1,3 +1,5 @@
+const SKIP_PADDING = ['profile-image']
+
 function gridCellDimensions() {
   const element = document.createElement("div");
   element.style.position = "fixed";
@@ -17,6 +19,7 @@ function adjustMediaPadding() {
       const rect = media.getBoundingClientRect();
       const realHeight = rect.width / ratio;
       const diff = cell.height - (realHeight % cell.height);
+      if (SKIP_PADDING.includes(media.className)) return
       media.style.setProperty("padding-bottom", `${diff}px`);
   }
 
