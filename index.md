@@ -13,3 +13,5 @@ version: v0.1.1
 Software engineering, system designs, programming and other interesting stuff. 
 
 * [🗄️Github](https://github.com/ajcode404/)
+
+![akash-jain-profile.png](./resources/avatar.jpeg)
