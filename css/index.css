@@ -463,3 +463,10 @@ label input {
   border: 5px solid lightblue;
   margin-top: 1rem;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

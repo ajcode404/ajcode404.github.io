@@ -28,31 +28,6 @@ $if(math)$
 $endif$
 </head>
 <body>
-<!-- $for(include-before)$ -->
-<!-- $include-before$ -->
-<!-- $endfor$ -->
-<!-- <table class="header">
-  <tr>
-    <td colspan="2" rowspan="2" class="width-auto">
-      <h1 class="title">$title$</h1>
-      <span class="subtitle">$subtitle$</span>
-    </td>
-    <th>Version</th>
-    <td class="width-min">$version$</td>
-  </tr>
-  <tr>
-    <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">$date$</time></td>
-  </tr>
-  <tr>
-    <th class="width-min">Author</th>
-    <td class="width-auto"><a href="$author-url$"><cite>$author$</cite></a></td>
-    <th class="width-min">License</th>
-    <td>MIT</td>
-  </tr>
-</table> -->
-<!-- <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label> -->
-
 
 $if(abstract)$
 <div class="abstract">
@@ -61,21 +36,11 @@ $abstract$
 </div>
 $endif$
 
-<!-- Table of content -->
-<!-- $if(toc)$
-<nav id="$idprefix$TOC" role="doc-toc">
-$if(toc-title)$
-<h2 id="$idprefix$toc-title">$toc-title$</h2>
-$endif$
-$table-of-contents$
-</nav>
-$endif$ -->
-
 $body$
+
 $for(include-after)$
-$include-after$
+  $include-after$
 $endfor$
-  <!-- <div class="debug-grid"></div> -->
-  <script src="./js/index.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
