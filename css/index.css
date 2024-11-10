@@ -79,11 +79,9 @@ h1 {
   font-size: 2rem;
   line-height: calc(2 * var(--line-height));
   margin-bottom: calc(var(--line-height) * 2);
-  text-transform: uppercase;
 }
 h2 {
   font-size: 1rem;
-  text-transform: uppercase;
 }
 
 hr {
@@ -347,7 +345,6 @@ button::-moz-focus-inner {
 }
 
 button {
-  text-transform: uppercase;
   font-weight: var(--font-weight-medium);
   cursor: pointer;
 }
@@ -469,4 +466,13 @@ label input {
   justify-content: center;
   align-items: center;
 
+}
+
+.title {
+  padding: 0%;
+  margin: 0%;
+} 
+
+.italic {
+  font-style: italic;
 }

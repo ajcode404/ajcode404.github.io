@@ -7,7 +7,10 @@ toc-title: Contents
 version: v0.1.1
 ---
 
-# Akash Jain{.center}
+# Akash Jain{.center .title}
+
+### Personal Website{.italic .center .title}
+
 <p class="center"><img src="./resources/avatar.jpeg" class="profile-image"/></p>
 
 ### Software engineering, system designs, programming and other interesting stuff. 
