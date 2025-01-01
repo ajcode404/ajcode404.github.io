@@ -13,6 +13,9 @@ version: v0.1.1
 
 <p class="center"><img src="./resources/avatar.jpeg" class="profile-image"/></p>
 
-### Software engineering, system designs, programming and other interesting stuff. 
+<!-- ### Software engineering, system designs, programming and other interesting stuff.  -->
+
+&emsp; Akash Jain is a backend developer based in Bengaluru India. He is passionate about creating robust and scalable systems and also likes to learn about the latest technologies at his own leisure time. He is active on X and other social media, do reach out if you want to discuss anything. 
+
 
 * [🗄️Github](https://github.com/ajcode404/)
