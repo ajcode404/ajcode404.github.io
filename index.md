@@ -19,3 +19,4 @@ version: v0.1.1
 
 
 * [🗄️Github](https://github.com/ajcode404/)
+* [X](https://x.com/ajcode404)
